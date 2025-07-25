@@ -4,11 +4,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "bez",
+    name: "SwiftUI-bez",
     platforms: [.iOS(.v13), .macOS(.v10_15), .watchOS(.v6)],
     products: [
         .library(
-            name: "bez",
+            name: "SwiftUI-bez",
             targets: ["bez"]),
     ],
     dependencies: [
